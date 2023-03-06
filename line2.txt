@@ -1,0 +1,2 @@
+>lcl|NC_003112.2_cds_WP_002220030.1_4 [locus_tag=NMB_RS00020] [protein=YdcF family protein] [protein_id=WP_002220030.1] [location=complement(2517..3161)] [gbkey=CDS]
+GTGAACAAACGGCTGTTTTGCAGCCG

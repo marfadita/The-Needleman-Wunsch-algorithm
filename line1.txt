@@ -1,0 +1,2 @@
+>lcl|NC_003112.2_cds_WP_002225748.1_2 [locus_tag=NMB_RS00010] [protein=hypothetical protein] [protein_id=WP_002225748.1] [location=complement(502..897)] [gbkey=CDS]
+ATGCCGTCTGATGTCGGAATACGG
