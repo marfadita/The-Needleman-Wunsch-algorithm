@@ -5,10 +5,10 @@
 * Petr  Shatrov
 
 ## Introduction 
-The Needleman–Wunsch algorithm is an algorithm used in bioinformatics to align protein or nucleotide sequences. It was one of the first applications of dynamic programming to compare biological sequences.  It is also sometimes referred to as the optimal matching algorithm and the global alignment technique. The Needleman–Wunsch algorithm is still widely used for optimal global alignment, particularly when the quality of the global alignment is of the utmost importance. The algorithm assigns a score to every possible alignment, and the purpose of the algorithm is to find all possible alignments having the highest score.
+The Needleman–Wunsch algorithm is used in bioinformatics to align protein or nucleotide sequences. It was one of the first applications of dynamic programming to compare biological sequences. It is sometimes called the optimal matching algorithm and the global alignment technique. The Needleman–Wunsch algorithm is still widely used for optimal global alignment, mainly when the quality of the global alignment is paramount.  The algorithm assigns a score to every possible alignment, aiming to find all possible alignments with the highest score.
 
 ## Aim
-We aim to implement one of the classical bioinformatics approaches for any two nucleotide or protein sequences. For protein sequences alignment we use BLOSUM 62 substitution matrix.
+We aim to implement one of the classical bioinformatics approaches for any two nucleotide or protein sequences. For protein sequence alignment, we use PAM 250 substitution matrix. As input, we use sequences in fasta format.
 
 ## Workflow
 1. Constructing the grid
@@ -17,4 +17,5 @@ We aim to implement one of the classical bioinformatics approaches for any two n
 4. Tracing arrows back to origin
 
 ## Results
+The algorithm outputs one of the optimal alignment options in stdout.
 
